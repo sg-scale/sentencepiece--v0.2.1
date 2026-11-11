@@ -22,9 +22,9 @@ certifi==2024.7.4 \
     # via
     #   -c base.txt
     #   cibuildwheel
-cibuildwheel==3.1.2 \
-    --hash=sha256:412362741f42244bbb44ca9c3f22d55f0a85d549435c8107bc0d04b74a77c780 \
-    --hash=sha256:493949b9cd37b7ee4c803bca88557773daece2f767c07865b2282e08fb5e7709
+cibuildwheel==4.3.3 \
+    --hash=sha256:05bd519cad35780ef62554678437432b09b1e56daa20237a5fdc5af8419b5def \
+    --hash=sha256:c6dd74bbf639feb39177618b4cfd51d906300e1621b2cdf0ce68e933ead36987
     # via -r cibuildwheel.in
 dependency-groups==1.3.0 \
     --hash=sha256:1abf34d712deda5581e80d507512664d52b35d1c2d7caf16c85e58ca508547e0 \
@@ -50,17 +50,7 @@ platformdirs==4.1.0 \
     --hash=sha256:11c8f37bcca40db96d8144522d925583bdb7a31f7b0e37e3ed4318400a8e2380 \
     --hash=sha256:906d548203468492d432bcb294d4bc2fff751bf84971fbb2c10918cc206ee420
     # via cibuildwheel
-pyelftools==0.32 \
-    --hash=sha256:013df952a006db5e138b1edf6d8a68ecc50630adbd0d83a2d41e7f846163d738 \
-    --hash=sha256:6de90ee7b8263e740c8715a925382d4099b354f29ac48ea40d840cf7aa14ace5
-    # via cibuildwheel
 pyproject-hooks==1.2.0 \
     --hash=sha256:1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8 \
     --hash=sha256:9e5c6bfa8dcc30091c74b0cf803c81fdd29d94f01992a7707bc97babb1141913
     # via build
-wheel==0.45.1 \
-    --hash=sha256:661e1abd9198507b1409a20c02106d9670b2576e916d58f520316666abca6729 \
-    --hash=sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248
-    # via
-    #   -c base.txt
-    #   cibuildwheel

@@ -280,15 +280,16 @@ nh3==0.2.18 \
     --hash=sha256:de3ceed6e661954871d6cd78b410213bdcb136f79aafe22aa7182e028b8c7307 \
     --hash=sha256:f0eca9ca8628dbb4e916ae2491d72957fdd35f7a5d326b7032a345f111ac07fe
     # via readme-renderer
-packaging==24.1 \
-    --hash=sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002 \
-    --hash=sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124
+packaging==26.3 \
+    --hash=sha256:94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79 \
+    --hash=sha256:d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c
     # via
     #   pytest
     #   twine
-pluggy==1.5.0 \
-    --hash=sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1 \
-    --hash=sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669
+    #   wheel
+pluggy==1.7.0 \
+    --hash=sha256:7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec \
+    --hash=sha256:d1eaa46ebb595891b860ab086b4d09c8588af65ebd4361b8e8f4bb8920b90ba8
     # via pytest
 pycparser==2.22 \
     --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
@@ -301,9 +302,9 @@ pygments==2.18.0 \
     #   pytest
     #   readme-renderer
     #   rich
-pytest==8.4.1 \
-    --hash=sha256:539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7 \
-    --hash=sha256:7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c
+pytest==9.2.0 \
+    --hash=sha256:07acdcf88ec174f907dc01af70bf52d49b014bbab03faeeade31c96b18c2e588 \
+    --hash=sha256:97c4f3b1f3c7414aa36465e09b8220f1d03627993bd51b1282e193753c80557b
     # via -r base.in
 readme-renderer==44.0 \
     --hash=sha256:2fbca89b81a08526aadf1357a8c2ae889ec05fb03f5da67f9769c9a592166151 \
@@ -324,17 +325,17 @@ rfc3986==2.0.0 \
     --hash=sha256:50b1502b60e289cb37883f3dfd34532b8873c7de9f49bb546641ce9cbd256ebd \
     --hash=sha256:97aacf9dbd4bfd829baad6e6309fa6573aaf1be3f6fa735c8ab05e46cecb261c
     # via twine
-rich==13.7.1 \
-    --hash=sha256:4edbae314f59eb482f54e9e30bf00d33350aaa94f4bfcd4e9e3110e64d0d7222 \
-    --hash=sha256:9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432
+rich==15.0.0 \
+    --hash=sha256:33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb \
+    --hash=sha256:edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36
     # via twine
 secretstorage==3.3.3 \
     --hash=sha256:2403533ef369eca6d2ba81718576c5e0f564d5cca1b58f73a8b23e7d4eeebd77 \
     --hash=sha256:f356e6628222568e3af06f2eba8df495efa13b3b63081dafd4f7d9a7b7bc9f99
     # via keyring
-twine==6.1.0 \
-    --hash=sha256:a47f973caf122930bf0fbbf17f80b83bc1602c9ce393c7845f289a3001dc5384 \
-    --hash=sha256:be324f6272eff91d07ee93f251edf232fc647935dd585ac003539b42404a8dbd
+twine==7.0.0 \
+    --hash=sha256:85cdb29c518efef867360ae4acd4b0dfd61c8654a22fca08e6f8539f05022177 \
+    --hash=sha256:b854164df26db268af05f49aa5c0344b10e27a494343ff05b1e0bad3b135f5a7
     # via -r base.in
 urllib3==2.2.2 \
     --hash=sha256:a448b2f64d686155468037e1ace9f2d2199776e17f0a46610480d311f73e3472 \
@@ -342,9 +343,9 @@ urllib3==2.2.2 \
     # via
     #   requests
     #   twine
-wheel==0.45.1 \
-    --hash=sha256:661e1abd9198507b1409a20c02106d9670b2576e916d58f520316666abca6729 \
-    --hash=sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248
+wheel==0.48.0 \
+    --hash=sha256:3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab \
+    --hash=sha256:94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322
     # via -r base.in
 zipp==3.20.0 \
     --hash=sha256:0145e43d89664cfe1a2e533adc75adafed82fe2da404b4bbb6b026c0157bdb31 \
@@ -352,11 +353,11 @@ zipp==3.20.0 \
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==25.2 \
-    --hash=sha256:578283f006390f85bb6282dffb876454593d637f5d1be494b5202ce4877e71f2 \
-    --hash=sha256:6d67a2b4e7f14d8b31b8b52648866fa717f45a1eb70e83002f4331d07e953717
+pip==26.3 \
+    --hash=sha256:6c36ae7da8695be67e3cd9f7d87919667ced53f57ce2ede75d89b5912ed2bc4c \
+    --hash=sha256:f3b60b20ffaadd4415ed7957212a38ac63fa4c5fa375bd0f4a797777940fad13
     # via -r base.in
-setuptools==80.9.0 \
-    --hash=sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922 \
-    --hash=sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c
+setuptools==84.2.1 \
+    --hash=sha256:3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc \
+    --hash=sha256:ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2
     # via -r base.in
